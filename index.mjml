@@ -124,13 +124,30 @@
     <!-- Divider -->
 
     <mj-divider border-color="#38548F" border-width="1px" border-style="dashed" padding-left="20px" padding-right="20px" padding-bottom="0px" padding-top="0"></mj-divider>
+
     <!-- footer - social links -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" font-weight="bold" font-size="16px" color="#049B9C" font-family="helvetica">Let's stay in touch... </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/in/alexandraasanache/">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/digitallyalex/">
+          </mj-social-element>
+          <mj-social-element name="web" href="https://www.digitallyalex.com/">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
     <!-- footer - unsubscribe -->
     <mj-section padding="10px 0 20px 0">
       <mj-column>
-        <mj-text align="center" color="#9B9B9B" font-size="11px">
+        <mj-text align="center" color="#9B9B9B" font-size="12px">
           <a href="#" style="color: #9B9B9B;">Unsubscribe</a> from this newsletter<br>
-          <a href="https://www.digitallyalex.com" style="color: #9B9B9B; text-decoration:none;">Made by digitallyalex.com</a></mj-text>
+          <a href="https://www.digitallyalex.com" style="color: #9B9B9B; text-decoration:none;">2023 made by digitallyalex.com</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
