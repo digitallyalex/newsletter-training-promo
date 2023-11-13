@@ -1,9 +1,14 @@
 <mjml>
   <mj-head>
-
+    <mj-attributes>
+      <mj-accordion border="none" padding="1px" />
+      <mj-accordion-element icon-wrapped-url="./images/wrappedIcon.png" icon-unwrapped-url="./images/unwrappedIcon.png" icon-height="24px" icon-width="24px" />
+      <mj-accordion-title font-family="Helvetica" background-color="#FFFEED" color="#049B9C" padding="15px" font-size="18px" />
+      <mj-accordion-text font-family="Helvetica" background-color="#FFFEED" padding="15px" color="#38548F" font-size="14px" />
+    </mj-attributes>
   </mj-head>
 
-  <mj-body background-color="#F4F3EF">
+  <mj-body background-color="#F8F8F6">
     <!-- logo section -->
     <mj-section>
       <mj-column>
@@ -20,9 +25,10 @@
       <mj-column>
         <mj-text font-weight="bold" font-size="20px" color="#049B9C" font-family="helvetica">New Ethical Marketing Training Available! </mj-text>
 
-        <mj-text font-size="15px" color="#38548F" font-family="helvetica">This brand new Digitally.ethical training guides you through all the important topics you need to be on top of as a small business owner. Start your journey towards becoming the change in your industry today.</mj-text>
+        <mj-text font-size="15px" color="#38548F" font-family="helvetica">This brand new Digitally.ethical training guides you through all the important topics you need to be on top of as a small business owner. Start your journey towards becoming the change in your industry today.<br><br>
+          PRICE: £250 per participant </mj-text>
 
-        <mj-button width="230px" height="25px" align="left" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Get Access to The Training</mj-button>
+        <mj-button href="#" width="230px" height="25px" align="left" font-weight="bold" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Get Access to The Training Today</mj-button>
       </mj-column>
 
     </mj-section>
@@ -53,23 +59,70 @@
     <mj-section background-color="#049B9C" padding-bottom="0px" padding-top="0px">
       <mj-column>
         <mj-text align="center" font-size="16px" color="white">
-          <p>✨Get a bonus Power Hour when you book your training <span style="font-weight: bold; color: #FFFEED">by 1 December 2023</span>✨</p>
+          <p>✨Get a bonus Power Hour (worth £135) when you book your training <span style="font-weight: bold; color: #FFFEED">by 1 December 2023</span>✨</p>
         </mj-text>
       </mj-column>
     </mj-section>
 
+    <!-- Accordion FAQ -->
+    <mj-section padding="20px" background-color="#F8F8F6">
+      <!-- left column - image and title -->
+      <mj-column width="40%">
+        <mj-image width="170px" src="./images/faqPhoto.png" alt="Training highlight:"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#049B9C" font-family="helvetica">Frequently Asked Questions</mj-text>
+      </mj-column>
+      <!-- right column - accordion with questions and answers -->
+      <mj-column width="60%" background-color="#dededd">
+        <mj-accordion>
+          <mj-accordion-element>
+            <mj-accordion-title>Who is this training for?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>What can I expect after booking the training?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>Are there any live sessions included?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>How does the weekly email support work?</mj-accordion-title>
+            <mj-accordion-text>
+              <span style="line-height:20px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </span>
+            </mj-accordion-text>
+          </mj-accordion-element>
+        </mj-accordion>
+      </mj-column>
+    </mj-section>
+
     <!-- CTA buttons -->
-    <mj-section padding-bottom="20px" padding-top="20px">
+    <mj-section padding-bottom="20px" padding-top="0px">
       <mj-column width="50%">
-        <mj-button width="230px" height="25px" align="center" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Book Your Training</mj-button>
+        <mj-button href="#" width="230px" height="25px" align="center" color="#38548F" font-weight="bold" background-color="#FFE582" border-radius="10px" font-family="helvetica" font-size="15px">Book Your Training</mj-button>
       </mj-column>
 
       <mj-column width="50%">
-        <mj-button width="230px" height="25px" align="center" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Get In Touch</mj-button>
+        <mj-button href="#" width="230px" height="25px" align="center" color="#38548F" font-weight="bold" background-color="#FFE582" border-radius="10px" font-family="helvetica" font-size="15px">Get In Touch</mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Divider -->
+
     <mj-divider border-color="#38548F" border-width="1px" border-style="dashed" padding-left="20px" padding-right="20px" padding-bottom="0px" padding-top="0"></mj-divider>
     <!-- footer - social links -->
     <!-- footer - unsubscribe -->
@@ -77,7 +130,7 @@
       <mj-column>
         <mj-text align="center" color="#9B9B9B" font-size="11px">
           <a href="#" style="color: #9B9B9B;">Unsubscribe</a> from this newsletter<br>
-          <a href="http://digitallyalex.com" style="color: #9B9B9B; text-decoration:none;">Made by digitallyalex.com</a></mj-text>
+          <a href="https://www.digitallyalex.com" style="color: #9B9B9B; text-decoration:none;">Made by digitallyalex.com</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
