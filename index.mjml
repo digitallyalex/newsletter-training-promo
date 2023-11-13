@@ -1,16 +1,83 @@
 <mjml>
   <mj-head>
-    <mj-attributes>
-      <mj-class name="big-text" font-size="50px" />
-    </mj-attributes>
+
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="#F4F3EF">
+    <!-- logo section -->
     <mj-section>
       <mj-column>
-        <mj-text mj-class="big-text">
-          Hello World!
+        <mj-image width="300px" src="./images/logoVarOne.png" alt="Company logo"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- hero header section -->
+    <mj-section background-color="#FFFEED">
+      <mj-column>
+        <mj-image align="left" width="300px" src="./images/bannerImage.png" alt="Image of company founder"></mj-image>
+      </mj-column>
+
+      <mj-column>
+        <mj-text font-weight="bold" font-size="20px" color="#049B9C" font-family="helvetica">New Ethical Marketing Training Available! </mj-text>
+
+        <mj-text font-size="15px" color="#38548F" font-family="helvetica">This brand new Digitally.ethical training guides you through all the important topics you need to be on top of as a small business owner. Start your journey towards becoming the change in your industry today.</mj-text>
+
+        <mj-button width="230px" height="25px" align="left" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Get Access to The Training</mj-button>
+      </mj-column>
+
+    </mj-section>
+
+    <!-- features section -->
+    <mj-section>
+      <!-- feature 1 -->
+      <mj-column>
+        <mj-image width="170px" src="./images/highlightOne.png" alt="Training highlight:"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#049B9C" font-family="helvetica">Self-Paced Video Training</mj-text>
+        <mj-text align="left" font-size="13px" color="#38548F" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      </mj-column>
+      <!-- feature 2 -->
+      <mj-column>
+        <mj-image width="170px" src="./images/highlightTwo.png" alt="Training highlight:"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#049B9C" font-family="helvetica">Practical Workbook</mj-text>
+        <mj-text align="left" font-size="13px" color="#38548F" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      </mj-column>
+      <!-- feature 3 -->
+      <mj-column>
+        <mj-image width="170px" src="./images/highlightThree.png" alt="Training highlight:"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#049B9C" font-family="helvetica"> Weekly Email Support</mj-text>
+        <mj-text align="left" font-size="13px" color="#38548F" font-family="helvetica">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--  special offer strip -->
+    <mj-section background-color="#049B9C" padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-text align="center" font-size="16px" color="white">
+          <p>✨Get a bonus Power Hour when you book your training <span style="font-weight: bold; color: #FFFEED">by 1 December 2023</span>✨</p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA buttons -->
+    <mj-section padding-bottom="20px" padding-top="20px">
+      <mj-column width="50%">
+        <mj-button width="230px" height="25px" align="center" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Book Your Training</mj-button>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-button width="230px" height="25px" align="center" background-color="#049B9C" border-radius="10px" font-family="helvetica" font-size="15px">Get In Touch</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-divider border-color="#38548F" border-width="1px" border-style="dashed" padding-left="20px" padding-right="20px" padding-bottom="0px" padding-top="0"></mj-divider>
+    <!-- footer - social links -->
+    <!-- footer - unsubscribe -->
+    <mj-section padding="10px 0 20px 0">
+      <mj-column>
+        <mj-text align="center" color="#9B9B9B" font-size="11px">
+          <a href="#" style="color: #9B9B9B;">Unsubscribe</a> from this newsletter<br>
+          <a href="http://digitallyalex.com" style="color: #9B9B9B; text-decoration:none;">Made by digitallyalex.com</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
